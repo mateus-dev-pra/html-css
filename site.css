@@ -1,0 +1,213 @@
+@charset "utf-8";
+ @font-face {
+        font-family: "estranha";
+        src: url("fontes/idroid.otf") format("opentype"); 
+    }
+/*configuração do body*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #84E1AD;
+    
+}
+
+/*define a cor verde do cabeçalho*/
+header {
+    background-image: linear-gradient( to top, #1E693F, #3BD57F );
+  height: 100px;
+    margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*define a cor do h1 do cabeçalho*/
+header h1 {
+text-align: center;
+color: white;
+padding: auto;
+font-size: 1.1EM;
+margin: 0;
+text-shadow: 2px 1px 1px black;
+}
+
+/*define a cor dos p do cabeçalho*/
+header p {
+text-align: center;
+margin: 10px ;
+color: whitesmoke;
+font-size: 0.7EM;
+text-shadow: 1px 1px 1px black;
+}
+
+
+
+/*define as configurações das opções do cabeçalho*/
+nav a {
+    color: rgb(239, 239, 240);
+text-decoration: none;
+padding: 5px 10px 0px 10px;
+font-size: 1EM;
+margin: 0px;
+transition: 1s;
+border-radius: 5px;
+
+}
+
+nav a:hover {
+background-color: black;
+
+}
+
+/*essa é a parte que esta ao redor dessas opções do menu*/
+nav {
+    margin-top: auto;
+}
+
+/*configuração dos h2*/
+h2 {
+    font-family: "estranha";  /*definindo o tipo de fonte*/
+    color: #1E693F;
+    margin: 0;
+    
+}
+
+/*configuração do h3*/
+h3 {
+font-family: "estranha";
+    color: #279a59;
+background-image: linear-gradient(to right, rgba(85, 122, 85, 0.395), white);
+}
+
+/*define essa parte branca na frente da verde*/
+main {
+background-color: aliceblue;
+margin:  auto;
+width: 80%;
+line-height: 1.5em;
+padding: 1px;
+}
+
+/*bonecos*/
+picture.bonecos img {
+display: block;
+margin: auto;
+width: 60%;
+right: auto;
+}
+
+/*os paragrafos*/
+main > p {
+padding: 0px 20px;
+text-indent: 25px;
+}
+
+/*foto da mulher*/
+picture.mulher img {
+display: block;
+margin: auto;
+max-width: 57%;
+min-width: 54%;
+padding: auto;
+}
+
+/*imagem do android*/
+img.android {
+margin: auto;
+display: block;
+}
+
+
+/*essa parte debaixo do video*/
+aside {
+background-color: aliceblue;
+margin:  auto;
+width: 80%;
+padding-top: 9px;
+    
+}
+
+/*esse que aprender mais*/
+h4 {
+    color: white;
+    background-color: #2FA866;
+    padding: 7px;
+    margin-top: auto;
+    border-radius:10px 10px 0px 0px ;
+}
+
+/*essa parte com as versões*/
+div.versoes {
+background-color: #C5EBD6;
+margin: auto;
+padding: 0px;
+display: block;
+width: 89%;
+border-radius: 10px;
+}
+/*essa é a parte da lista*/
+ul {
+  columns: 2;
+list-style: none ;
+padding: 0px;
+}
+
+/*faz aparecer a parte do checado*/
+li::before {
+content: "✔️";
+padding: 0px;
+}
+
+/*define o rodapé*/
+footer {
+    background-color: #1A5C38;
+    margin: auto;
+width: 80%;
+
+}
+
+/*define essa frase em cima do rodapé*/
+p.fim {
+    margin: 0px;
+    color: rgb(75, 67, 67);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*define essa parte do fundo atrás do video*/
+div.video {
+background-color: #1E693F;
+padding: 20px;
+margin: 0px 0px 30px 0px;
+padding-bottom: 59%;
+position: relative;
+
+}
+
+/*define o video e suas configurações*/
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+width: 90%;
+height: 90%;
+
+}
+
+/*define os P do rodapé*/
+footer > p {
+color: #909e96;
+margin: 0;
+text-align: center;
+}
+
+
+/*define essa ultima frase da tabela pra ter esse espaço debaixo*/
+p.ultimo {
+    padding-bottom: 19px;
+}
+
+/*faz todos os P seja organizados*/
+p {
+    text-align: justify;
+}
