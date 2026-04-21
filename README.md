@@ -1,2 +1,8 @@
-# site-básico-html-css
-site básico de html e css do curso em video
+# minhas coisas usando HTML e CSS
+
+## siteS básicoS com HTML e CSS
+
+### 1º projeto
+
+- parte HTML [HTML](index.html)
+- parte CSS  [CSS](site.css)
