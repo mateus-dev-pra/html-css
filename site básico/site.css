@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Namdhinggo:wght@400;500;600;700;800&display=swap');
+
+
+header {
+text-align: center;
+background-color: black;
+color: white;
+padding: 50px;
+margin: 0px;
+}
+
+h1.titulo {
+ font-family: "Namdhinggo", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+span.nome {
+ font-family: "Namdhinggo", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+span.por {
+ font-family: "Namdhinggo", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+margin: 0px;
+height: 100%;
+
+}
+
+p.pri {
+color: black;
+background-color: white;
+width: 20%;
+padding: 2% ;
+line-height: 1.8;
+}
+
+p.seg{
+color: white;
+background-color: rgba(0, 0, 0, 0.533);
+width: 26%;
+padding: 2%;
+line-height: 1.8;
+}
+
+section.todo {
+    font-size: 149%;
+}
+
+div.joaninha {
+background-image:url(floresta3.jpg);
+
+}
+
+div.beija {
+background-image:url(folha.jpg);
+
+}
+
+div.rede {
+    background-image: url(rede.jpg);
+}
+
+div {
+    background-image: url(ceu2.jpg);
+}
+
+div {
+    background-repeat: no-repeat;
+background-size: cover;
+padding-top: 15%;
+padding-bottom: 15%;
+padding-left: 2%;
+background-attachment: fixed;
+}
+
