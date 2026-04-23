@@ -31,14 +31,14 @@ span.por {
 body {
 margin: 0px;
 height: 100%;
-
+background-color: darkgray;
 }
 
 p.pri {
 color: black;
-background-color: white;
 padding: 2% ;
 line-height: 1.8;
+width: 35%;
 }
 
 p.seg{
@@ -46,6 +46,7 @@ color: white;
 background-color: rgba(0, 0, 0, 0.533);
 padding: 2%;
 line-height: 1.8;
+width: 35%;
 }
 
 section.todo {
