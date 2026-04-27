@@ -12,4 +12,6 @@
 
 - site mostrando redes sociais - [5º atividade](site-rede-social/)
 
-- mesma ideia da 5º atividade, mas melhorado [6º atividade](site-rede%20social-2.0/)
+- mesma ideia da 5º atividade, mas melhorado - [6º atividade](site-rede%20social-2.0/)
+
+- versão 3.0 do site de rede social - [7º atividade](site-rede-social-3.0/)
