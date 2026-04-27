@@ -41,3 +41,7 @@ margin-bottom: 15px;  /*margem de baixo*/
 
 }
 
+img.logo:hover {
+    border: 2px solid wheat;
+}
+
