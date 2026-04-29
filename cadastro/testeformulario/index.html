@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="site.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="" method="post">
+        <h2>Cadastro</h2>
+       
+       <div class="primeiro">
+       
+       <p>
+       
+           <label for="nome">
+               Nome
+           </label>
+               <input type="text" required id="nome" name="nome" size="35" placeholder="seu nome" >
+       
+       </p>
+       
+       <p>
+       
+           <label for="email">
+           Email
+           </label>
+               <input type="text" required id="email" name="email" size="35" >
+       
+       </p>
+       
+       <p>
+       
+           <label for="telefone">
+           Telefone
+           </label>
+               <input type="text" required id="telefone" name="telefone" placeholder="(00)0000-0000">
+       
+       </p>
+       
+       <p>
+       
+           <label for="nascimento">
+           data de nascimento:
+           </label>
+               <input type="date" required id="nascimento" name="nascimento">
+       
+       </p>
+       </div>
+       
+       
+       <p>
+       
+       <label for="endereco">
+       Endereço
+       </label>
+           <input type="text" required id="endereco" name="endereco" class="end" placeholder="rua, número etc">
+       
+       </p>
+       <div class="segundo">
+       
+       <p>
+       
+           <label for="cidade">
+              Cidade
+           </label>
+               <input type="text" required id="cidade" name="cidade" class="cidade">
+       
+       </p>
+       
+       <p>
+       
+           <label for="estado">
+           Estado
+           </label>
+              <select name="estado" id="estado" required class="est">
+       <option value="" disabled selected>Selecione seu estado</option>
+       
+         <option value="AC">Acre</option>
+         <option value="AL">Alagoas</option>
+         <option value="AP">Amapá</option>
+         <option value="AM">Amazonas</option>
+         <option value="BA">Bahia</option>
+         <option value="CE">Ceará</option>
+         <option value="DF">Distrito Federal</option>
+         <option value="ES">Espírito Santo</option>
+         <option value="GO">Goiás</option>
+         <option value="MA">Maranhão</option>
+         <option value="MT">Mato Grosso</option>
+         <option value="MS">Mato Grosso do Sul</option>
+         <option value="MG">Minas Gerais</option>
+         <option value="PA">Pará</option>
+         <option value="PB">Paraíba</option>
+         <option value="PR">Paraná</option>
+         <option value="PE">Pernambuco</option>
+         <option value="PI">Piauí</option>
+         <option value="RJ">Rio de Janeiro</option>
+         <option value="RN">Rio Grande do Norte</option>
+         <option value="RS">Rio Grande do Sul</option>
+         <option value="RO">Rondônia</option>
+         <option value="RR">Roraima</option>
+         <option value="SC">Santa Catarina</option>
+         <option value="SP">São Paulo</option>
+         <option value="SE">Sergipe</option>
+         <option value="TO">Tocantins</option>
+       </select>
+              </select>
+       </p>
+       
+       <p>
+       
+           <label for="cep">
+           Cep
+           </label>
+               <input type="text" required id="cep" name="cep" class="cidade" maxlength="8" minlength="8" placeholder="8 dígitos">
+       </p>
+       </div>
+       <div class="terceiro">
+       
+       <p>
+       
+           <label for="senha">
+            Senha
+           </label>
+               <input type="password" required id="senha" name="senha" min="8" placeholder="mínimo de 8 dígitos">
+       
+       </p>
+       
+       <p>
+       
+           <label for="confirmar">
+            confirmar senha
+           </label>
+               <input type="password" required id="confirmar" name="confirmar" placeholder="repita a senha ">
+       
+       </p>
+       </div>
+       <div class="genero">
+       
+       
+         <span>Gênero</span>
+           <label for="genero">
+       
+       
+               <input type="radio" required id="genero" name="genero">Masculino
+           </label>
+           <label for="">
+               <input type="radio" name="genero">Feminino
+           </label>
+       </div>
+       
+       <p>
+       
+       <label for="codigo">
+       como nos conheceu?
+       </label>
+         <textarea name="codigo" id="codigo" rows="8" cols="1"></textarea>
+       
+       </p>
+       
+       <input type="submit" value="enviar">
+       <input type="reset" value="apagar todos os campos">
+   </form>
+</body>
+</html>

@@ -38,10 +38,14 @@ img.logo {
 display: block;     /*virar bloco*/
 height: 50px;      /*tamanho vertical*/
 margin-bottom: 15px;  /*margem de baixo*/
-
+box-sizing: border-box;
 }
 
 img.logo:hover {
     border: 2px solid wheat;
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
 }
+
+
 
