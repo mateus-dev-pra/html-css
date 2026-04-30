@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="" method="post">
+   <form action="arquivo.php" method="post">
         <h2>Cadastro</h2>
        
        <div class="primeiro">
@@ -35,7 +35,7 @@
            <label for="telefone">
            Telefone
            </label>
-               <input type="text" required id="telefone" name="telefone" placeholder="(00)0000-0000">
+               <input type="text" required id="telefone" name="telefone" placeholder="(00)0000-0000" pattern="^\([0-9]{2}\)\s[0-9]{5}-[0-9]{4}$">
        
        </p>
        
@@ -123,7 +123,7 @@
            <label for="senha">
             Senha
            </label>
-               <input type="password" required id="senha" name="senha" min="8" placeholder="mínimo de 8 dígitos">
+               <input type="password" required id="senha" name="senha" minlength="8" placeholder="mínimo de 8 dígitos">
        
        </p>
        
@@ -132,7 +132,7 @@
            <label for="confirmar">
             confirmar senha
            </label>
-               <input type="password" required id="confirmar" name="confirmar" placeholder="repita a senha ">
+               <input type="password" required id="confirmar" minlength="8" name="confirmar" placeholder="repita a senha ">
        
        </p>
        </div>
@@ -155,7 +155,7 @@
        <label for="codigo">
        como nos conheceu?
        </label>
-         <textarea name="codigo" id="codigo" rows="8" cols="1"></textarea>
+         <textarea name="codigo" required id="codigo" rows="8" cols="1" minlength="1"></textarea>
        
        </p>
        
